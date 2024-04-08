@@ -5,7 +5,7 @@ _____
 a binary function approximator
 
 ## About
-NANDEvo is an evolutionary algorithm meant to approximate an arbitrary black box binary function from inputs and associated outputs. It uses a complete string protocol to encode logic functions. Functions are composed of only universal NAND gates.
+NANDEvo is an evolutionary algorithm meant to approximate an arbitrary black box binary function from inputs and associated outputs. It uses a complete string protocol to encode digital logic functions. Functions are composed of only universal NAND gates.
 
 This codebase includes the code for a `Scheme` (a complete string protocol for binary functions including utilities to convert from string instructions to Python functions), an evolutionary algorithm to `evolve` these functions, a few simple `Datasets`, and utilities to evaluate a function's `fitness`.
 
